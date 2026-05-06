@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(135deg, #f8f9fa, #e3f2fd);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #563d7c, #6f42c1);
+}
+
+.navbar-brand img {
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.4));
+}
+
+h1 {
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-custom {
+  background: linear-gradient(45deg, #ff6f61, #ff9966);
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(45deg, #ff9966, #ff6f61);
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
